@@ -1,0 +1,78 @@
+# ==========================================
+# Intel/Altera Quartus FPGA Build Artifacts
+# ==========================================
+# Quartus compilation databases and history
+db/
+incremental_db/
+/hc_output/
+/mega_functions/
+
+# Compilation and report files
+*.rpt
+*.smsg
+*.summary
+*.done
+*.pin
+*.jdi
+*.sld
+*.pof
+*.ekp
+*.map
+*.msg
+
+# Simulation and automation output
+simulation/
+/search_output/
+
+# System/Project backups and local IDE metadata
+*.qws
+*.bak
+*.orig
+*.swp
+*~
+
+# ==========================================
+# QSYS / Platform Designer Generated Files
+# ==========================================
+# Exclude auto-generated hardware submodules and system layouts
+# Note: We keep the top-level .qsys and .sopcinfo blueprints, but drop the code-gen folders
+**/synthesis/
+**/simulation/
+*.bsf
+*.cmp
+*.html
+*.xml
+*.debuginfo
+*.regmap
+
+# ==========================================
+# C/C++ Embedded Software Build Artifacts
+# ==========================================
+# Compiled object files and dependency trees
+*.o
+*.obj
+*.obj.d
+*.d
+*.crf
+*.lnk
+
+# Executables, library archives, and maps
+*.elf
+*.exe
+*.out
+*.a
+*.lib
+*.map
+
+# Build tool chains (CMake, Make, etc.)
+**/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Toolchain specific metadata
+settings.bsp
+linker.x
+linker.h
+memory.gdb
